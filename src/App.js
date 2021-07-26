@@ -1,5 +1,5 @@
-import LoginForm from './components/LoginForm';
-import SignupForm from './components/SignupForm';
+import SimpleInput from './components/LoginForm';
+import BasicForm from './components/SignupForm';
 
 function App() {
   
@@ -21,15 +21,11 @@ function App() {
                   </div>
                   
                   <div className = 'Login'>
-                      <button onClick={LoginForm}>
-                      Login
-                      </button>
+                      < SimpleInput />
                   </div>
 
                   <div className = 'SignUp'>
-                      <button onClick={SignupForm}>
-                        Sign Up
-                      </button>
+                      < BasicForm />
                   </div>
               </div>
           
